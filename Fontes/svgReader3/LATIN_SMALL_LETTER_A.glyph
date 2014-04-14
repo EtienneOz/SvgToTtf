@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<glyphElement>
+<head>
+<title>LATIN_SMALL_LETTER_A</title>
+<unicode>61</unicode>
+<advanceWidth>512.0</advanceWidth>
+<author>Nobody</author>
+<copyright>2004</copyright>
+<fontFamily>temp</fontFamily>
+<fontSubFamily>Regular</fontSubFamily>
+<license>All rights reserved.</license>
+<global/>
+<local/>
+</head>
+<body>
+<contour type="cubic">
+<contourPoint type="on">
+<point2d x="309.0" y="291.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="291.0589904785156" y="373.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="298.7799987792969" y="314.05499267578125"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="288.8429870605469" y="347.531005859375"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="325.0" y="389.906005859375"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="292.260009765625" y="386.8089904785156"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="313.66900634765625" y="394.5610046386719"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="374.0" y="340.0039978027344"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="344.75201416015625" y="381.7909851074219"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="359.1080017089844" y="354.718994140625"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="458.0" y="291.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="397.8609924316406" y="316.42498779296875"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="426.3760070800781" y="301.2900085449219"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="436.4530029296875" y="322.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="449.8160095214844" y="300.8680114746094"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="441.33599853515625" y="309.8999938964844"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="432.1109924316406" y="341.3340148925781"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="434.197998046875" y="327.5889892578125"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="435.1510009765625" y="336.62701416015625"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="415.1700134277344" y="356.03900146484375"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="428.3169860839844" y="347.2080078125"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="420.02398681640625" y="350.9070129394531"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="386.28900146484375" y="413.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="400.4230041503906" y="371.6300048828125"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="389.18798828125" y="391.4880065917969"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="388.8840026855469" y="457.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="384.2720031738281" y="427.9630126953125"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="385.4049987792969" y="442.32000732421875"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="393.3869934082031" y="492.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="391.4630126953125" y="467.8819885253906"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="397.3550109863281" y="480.89300537109375"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="354.0" y="507.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="387.5899963378906" y="508.22100830078125"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="367.7359924316406" y="507.0379943847656"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="383.0" y="527.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="361.0559997558594" y="515.7230224609375"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="372.927001953125" y="522.2969970703125"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="383.0" y="528.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="352.0" y="525.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="352.0" y="526.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="375.0" y="542.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="375.0" y="543.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="338.0" y="536.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="369.8009948730469" y="584.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="347.6159973144531" y="549.81298828125"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="371.6499938964844" y="564.8889770507812"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="363.0" y="600.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="369.22900390625" y="589.9089965820312"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="365.7090148925781" y="594.905029296875"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="408.0" y="601.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="377.27801513671875" y="604.219970703125"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="393.3890075683594" y="601.0"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="397.0" y="613.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="439.0" y="607.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="422.0" y="623.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="527.0" y="578.5750122070312"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="459.5509948730469" y="621.3829956054688"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="497.4159851074219" y="600.031005859375"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="581.0" y="545.4710083007812"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="541.6699829101562" y="567.9359741210938"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="561.176025390625" y="544.5960083007812"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="615.0" y="568.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="596.697998046875" y="546.1630249023438"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="602.864990234375" y="561.52197265625"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="619.9609985351562" y="528.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="616.0579833984375" y="554.6160278320312"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="619.3709716796875" y="541.4669799804688"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="587.9970092773438" y="400.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="621.9140014648438" y="483.3999938964844"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="612.823974609375" y="437.7250061035156"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="553.9849853515625" y="358.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="578.0910034179688" y="384.947998046875"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="566.5659790039062" y="370.89599609375"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="527.1240234375" y="328.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="544.8060302734375" y="348.5899963378906"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="533.4240112304688" y="339.7489929199219"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="545.0" y="287.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="518.2420043945312" y="311.4360046386719"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="532.39501953125" y="296.60400390625"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="503.0" y="284.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="534.489990234375" y="280.7040100097656"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="514.916015625" y="284.0"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="519.0" y="272.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="519.0" y="271.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="480.0" y="273.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="480.0" y="272.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="500.0" y="257.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="425.0" y="270.343994140625"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="474.7449951171875" y="261.6889953613281"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="449.87701416015625" y="262.39599609375"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="373.0" y="290.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="407.31500244140625" y="275.9939880371094"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="390.22198486328125" y="283.11199951171875"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="336.0" y="299.8710021972656"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="361.5320129394531" y="294.5870056152344"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="348.6289978027344" y="300.2030029296875"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="309.0" y="291.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="326.12701416015625" y="299.61199951171875"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="317.8219909667969" y="294.6730041503906"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="586.0" y="455.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="567.0" y="452.63800048828125"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="579.698974609375" y="453.281005859375"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="573.6510009765625" y="450.7149963378906"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="551.8759765625" y="469.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="559.4180297851562" y="454.83099365234375"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="554.8660278320312" y="462.156005859375"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="534.7520141601562" y="513.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="545.56201171875" y="483.4490051269531"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="541.7969970703125" y="498.8110046386719"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="454.0" y="589.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="517.6400146484375" y="547.468017578125"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="490.2359924316406" y="574.9420166015625"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="461.7359924316406" y="566.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="456.9930114746094" y="581.8099975585938"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="462.0220031738281" y="574.0960083007812"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="414.0" y="539.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="461.0190124511719" y="545.7329711914062"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="429.54998779296875" y="541.093994140625"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="431.0" y="529.9340209960938"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="418.9219970703125" y="535.0239868164062"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="425.58599853515625" y="533.302001953125"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="458.739990234375" y="489.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="444.8039855957031" y="521.3489990234375"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="458.22698974609375" y="506.14898681640625"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="430.4280090332031" y="452.9100036621094"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="459.3169860839844" y="469.6969909667969"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="441.27899169921875" y="464.6679992675781"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="424.7850036621094" y="388.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="413.864013671875" y="434.96099853515625"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="413.88299560546875" y="408.8489990234375"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="454.0" y="358.4440002441406"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="430.14898681640625" y="377.7409973144531"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="441.9960021972656" y="361.2900085449219"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="493.0" y="365.9750061035156"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="464.50201416015625" y="355.9549865722656"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="482.8680114746094" y="362.8599853515625"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="570.9959716796875" y="423.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="525.1380004882812" y="375.85699462890625"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="552.2890014648438" y="394.7130126953125"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="586.0" y="455.0"/>
+<controlPoint first="true" smooth="true">
+<contourPoint type="off">
+<point2d x="577.1489868164062" y="432.3030090332031"/>
+</contourPoint>
+</controlPoint>
+<controlPoint first="false" smooth="true">
+<contourPoint type="off">
+<point2d x="584.323974609375" y="443.8169860839844"/>
+</contourPoint>
+</controlPoint>
+</contourPoint>
+</contour>
+</body>
+</glyphElement>
