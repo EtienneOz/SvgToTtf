@@ -3,7 +3,7 @@ SvgToTtf
 
 Processing 2<br/><br/>
 
-Générer un fichier .ttf à partir de SVG en utilisant la libraire <a href="http://code.andreaskoller.com/libraries/fontastic/" target="_blank">Fontastic</a>.<br/><br/>
+Générer un fichier .ttf à partir de .svg en utilisant la libraire <a href="http://code.andreaskoller.com/libraries/fontastic/" target="_blank">Fontastic</a>.<br/><br/>
 
 Trois méthodes sont expérimentées : <br/>
 1 - La méthode getVertex() (vector2.pde), ne permet pas de récupérer les courbes ;<br/>
