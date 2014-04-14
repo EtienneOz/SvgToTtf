@@ -10,7 +10,8 @@ Trois méthodes sont expérimentées : <br/>
   2 - Le parsing du XML (svgReader.pde), récupère toutes les données (vectors et points de contrôle) mais les restitue   approximativement ;<br/>
   3 - L'usage de la librairie Geomerative (geomeratest2.pde), c'est la méthode la plus concluante. Néanmoins celle-ci    crée un points de vecteur par pixel pour les svg contenant des courbes. Cela rend le processus laborieux et le fichier de sortie volumineux.<br/><br/>
   
-To do : <br/>
-• Régler les approches et la largeur du caractère ;
-• Trouver une solution pour fermer la forme ;
+To do :
+=======
+• Régler les approches et la largeur du caractère ;<br/>
+• Trouver une solution pour fermer la forme ;<br/>
 • Automatiser la génération de l'alphabet entier.
