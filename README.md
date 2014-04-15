@@ -12,7 +12,5 @@ Trois méthodes sont expérimentées : <br/>
   
 To do :
 =======
-<s>• Régler les approches et la largeur du caractère ;</s><br/>
 • /!\/!\ Trouver une solution pour fermer la forme ;<br/>
-<s>• Automatiser la génération de l'alphabet entier ;</s><br/>
 • Optimiser le code.
