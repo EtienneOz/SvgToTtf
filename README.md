@@ -20,7 +20,7 @@ Screenshots
 ===========
 
 Un alphabet complet :
-<img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/BasicFract-V1/bin/screenshot.png?raw=true"/>
+<img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/SVGtoTTF/bin/screenshot.png"/>
 
 Le problème de forme non fermée :
 <img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/geomeratest2/bin/screenshot.png?raw=true"/>
