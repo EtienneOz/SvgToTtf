@@ -14,3 +14,6 @@ To do :
 =======
 • /!\ /!\ Trouver une solution pour fermer la forme ;<br/>
 • Optimiser le code.
+
+
+<img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/BasicFract-V1/bin/screenshot.png?raw=true"/>
