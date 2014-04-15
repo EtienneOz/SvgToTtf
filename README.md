@@ -19,7 +19,7 @@ To do :
 Screenshots
 ===========
 
-Alphabet complet :
+Un alphabet complet :
 <img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/BasicFract-V1/bin/screenshot.png?raw=true"/>
 
 Le problème de forme non fermée :
