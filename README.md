@@ -15,6 +15,10 @@ To do :
 • /!\ /!\ Trouver une solution pour fermer la forme (voir la seconde image) ;<br/>
 • Optimiser le code.
 
+
+Screenshots
+===========
+
 Alphabet complet :
 <img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/BasicFract-V1/bin/screenshot.png?raw=true"/>
 
