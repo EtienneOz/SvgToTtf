@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<glyphElement>
+<head>
+<title>LATIN_SMALL_LETTER_I</title>
+<unicode>69</unicode>
+<advanceWidth>900.0</advanceWidth>
+<author>Nobody</author>
+<copyright>2004</copyright>
+<fontFamily>temp</fontFamily>
+<fontSubFamily>Regular</fontSubFamily>
+<license>All rights reserved.</license>
+<global/>
+<local/>
+</head>
+<body>
+<contour type="cubic">
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="512.3999633789062"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="493.20001220703125"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="408.4000244140625" y="493.20001220703125"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="408.4000244140625" y="512.3999633789062"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="512.3999633789062"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="512.3999633789062"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="493.20001220703125"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="475.60003662109375" y="493.20001220703125"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="475.60003662109375" y="512.3999633789062"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="512.3999633789062"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="482.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="406.79998779296875"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="408.4000244140625" y="406.79998779296875"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="408.4000244140625" y="482.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="482.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="482.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="406.79998779296875"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="475.60003662109375" y="406.79998779296875"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="475.60003662109375" y="482.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="482.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="403.5999755859375"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="376.39996337890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="408.4000244140625" y="376.39996337890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="408.4000244140625" y="403.5999755859375"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="403.5999755859375"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="403.5999755859375"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="376.39996337890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="475.60003662109375" y="376.39996337890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="475.60003662109375" y="403.5999755859375"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="403.5999755859375"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="272.39996337890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="-177.2000732421875"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="408.4000244140625" y="-177.2000732421875"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="408.4000244140625" y="272.39996337890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="358.79998779296875" y="272.39996337890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="272.39996337890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="-177.2000732421875"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="475.60003662109375" y="-177.2000732421875"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="475.60003662109375" y="272.39996337890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="450.0" y="272.39996337890625"/>
+</contourPoint>
+</contour>
+</body>
+</glyphElement>
