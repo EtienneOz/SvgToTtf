@@ -12,5 +12,5 @@ Trois méthodes sont expérimentées : <br/>
   
 To do :
 =======
-• /!\/!\ Trouver une solution pour fermer la forme ;<br/>
+• /!\ /!\ Trouver une solution pour fermer la forme ;<br/>
 • Optimiser le code.
