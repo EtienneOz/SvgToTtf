@@ -12,8 +12,11 @@ Trois méthodes sont expérimentées : <br/>
   
 To do :
 =======
-• /!\ /!\ Trouver une solution pour fermer la forme ;<br/>
+• /!\ /!\ Trouver une solution pour fermer la forme (voir la seconde image) ;<br/>
 • Optimiser le code.
 
-
+Alphabet complet :
 <img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/BasicFract-V1/bin/screenshot.png?raw=true"/>
+
+Le problème de forme non fermée :
+<img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/geomeratest2/bin/screenshot.png?raw=true"/>
