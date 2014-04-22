@@ -15,7 +15,7 @@ La méthode finalement retenue (voir <a href="https://github.com/EtienneOz/SvgTo
   
 To do :
 =======
-• Inverser et centrer les glyphes. (une solution temporaire est utilisée en inversant les svg en amont) ;
+• Inverser et centrer les glyphes, voir screenshot 3. (une solution temporaire est utilisée en inversant les svg en amont) ;
 • Interface graphique.
 
 
@@ -24,3 +24,4 @@ Screenshots
 
 <img src="https://github.com/EtienneOz/SvgToTtf/blob/master/SVGtoTTF-v2/fontes/backlight-screenshot.png?raw=true"/>
 <img src="https://github.com/EtienneOz/SvgToTtf/blob/master/SVGtoTTF-v2/fontes/beta-screenshot.png?raw=true"/>
+<img src="https://github.com/EtienneOz/SvgToTtf/blob/master/SVGtoTTF-v2/fontes/screenshot.png?raw=true"/>
