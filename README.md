@@ -12,7 +12,7 @@ Trois méthodes sont expérimentées : <br/>
   
 To do :
 =======
-• /!\ /!\ Trouver une solution pour fermer la forme (voir la seconde image) ;<br/>
+• /!\ /!\ Trouver une solution pour fermer la forme. Le fichier ttf de sortie génère des caractères dont la forme a été jointe entre le dernier et le premier point. On se retrouve donc avec un ou plusieurs trait voir des remplissages intempestifs sur les caractères (voir la seconde image). Une solution serait peut-être de créer un PVector par tracé. Le souci c'est que Fontastic ne prend qu'un seul PVector pour créer un glyphe ;<br/>
 • Optimiser le code.
 
 
@@ -20,7 +20,7 @@ Screenshots
 ===========
 
 Un alphabet complet :
-<img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/BasicFract-V1/bin/screenshot.png?raw=true"/>
+<img src="https://raw.githubusercontent.com/EtienneOz/SvgToTtf/master/Fontes/SVGtoTTF/bin/screenshot.png"/>
 
 Le problème de forme non fermée :
 <img src="https://github.com/EtienneOz/SvgToTtf/blob/master/Fontes/geomeratest2/bin/screenshot.png?raw=true"/>
