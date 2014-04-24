@@ -5,10 +5,9 @@ Générer un fichier .ttf à partir de .svg .<br/><br/>
 
 Utilisation du php pour créer un fichier svg font contenant chaque caractère qui est ensuite converti en ttf via l'api de <a href="http://onlinefontconverter.com/" target="_blank">Online Font Converter</a>.<br/>
 une version en ligne est disponible à l'adresse <a href="http://etienneozeray.fr/svg2ttf/" target="blank">http://etienneozeray.fr/svg2ttf/</a>.<br/>
-/!\ Les svg ne doivent comporte qu'une balise <path> comprenant un attribut 'd' contenant l'esemble des points. Ils doivent aussi être inversés verticalement.
+/!\ Les svg ne doivent comporte qu'une balise \<path\> comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement.
 A partir de fichiers tiff, il est possible d'automatiser le processus via le terminal :<br/>
-- installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a><br/>
-- Dans le terminal, taper :<br/>
+Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a> puis dans le terminal, taper :<br/>
 <code>cd chemin/vers/le/dossier</code><br/>
 <code># flip les images</code><br/>
 <code>  mogrify -flip  *.tif</code><br/>
@@ -26,7 +25,7 @@ A partir de fichiers tiff, il est possible d'automatiser le processus via le ter
 <code>  done</code><br/>
 <br/><br/>
 
-Trois méthodes ont été expérimentées en utilisant la libraire <a href="http://code.andreaskoller.com/libraries/fontastic/" target="_blank">Fontastic</a> : <br/>
+Auparavant ,trois méthodes ont été expérimentées en utilisant la libraire <a href="http://code.andreaskoller.com/libraries/fontastic/" target="_blank">Fontastic</a> : <br/>
 1 - La méthode getVertex() (vector2.pde), ne permet pas de récupérer les courbes ;<br/>
 2 - Le parsing du XML (svgReader.pde), récupère toutes les données (vectors et points de contrôle) mais les restitue   approximativement ;<br/>
 3 - L'usage de la librairie <a href="http://www.ricardmarxer.com/geomerative/" target="_blank">Geomerative</a> (SVGtoTTF.pde), c'est la méthode la plus concluante. Néanmoins celle-ci crée un points de vecteur par pixel pour les svg contenant des courbes. Cela rend le processus laborieux et le fichier de sortie volumineux.<br/><br/>
@@ -40,11 +39,3 @@ To do :
 • Inverser et centrer les glyphes, voir screenshot 3. (une solution temporaire est utilisée en inversant les svg en amont) ;<br/>
 • Prendre en charge tant les alphabets incomplets qu'entiers ;<br/>
 • Prendre en charge les fontes à chasse variable ;
-
-
-Screenshots
-===========
-
-<img src="https://github.com/EtienneOz/SvgToTtf/blob/master/SVGtoTTF-v2/fontes/backlight-screenshot.png?raw=true"/>
-<img src="https://github.com/EtienneOz/SvgToTtf/blob/master/SVGtoTTF-v2/fontes/beta-screenshot.png?raw=true"/>
-<img src="https://github.com/EtienneOz/SvgToTtf/blob/master/SVGtoTTF-v2/fontes/screenshot.png?raw=true"/>
