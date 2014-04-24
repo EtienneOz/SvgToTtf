@@ -23,6 +23,7 @@ Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <
 <code>    mv ${i} ${new}</code><br/>
 <code>    let a=a+1</code><br/>
 <code>  done</code><br/>
+Il est necessaire d'augmenter la capacité d'upload simultanées par défaut de php. En local, il faut modifier le fichier php.ini en modifiant la valeur de 'max_file_uploads' à 26 minimum. Sur le serveur, c'est une autre paire de manches...
 <br/><br/>
 
 Auparavant ,trois méthodes ont été expérimentées en utilisant la libraire <a href="http://code.andreaskoller.com/libraries/fontastic/" target="_blank">Fontastic</a> : <br/>
