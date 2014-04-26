@@ -1,13 +1,13 @@
 SvgToTtf
 ========
 
-Générer un fichier .ttf à partir de 26 .svg .<br/><br/>
+			Générer un fichier .ttf à partir de 26 .svg .<br/><br/>
 
-Utilisation du php pour créer un fichier svg font contenant chaque caractère qui est ensuite converti en ttf via l'api de <a href="http://onlinefontconverter.com/" target="_blank">Online Font Converter</a>.<br/>
-Les svg ne doivent comporte qu'une balise  &lt;path&gt; comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement et renommés de 1.svg à 26.svg. Enfin, compresser dans un .zip l'ensemble des svg (pas le dossier).
-À partir de fichiers images (ici tiff), il est possible d'automatiser le processus via le terminal :<br/>
-Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a> puis dans le terminal, taper :<br/>
-<pre>
+			Utilisation du php pour créer un fichier svg font contenant chaque caractère qui est ensuite converti en ttf via l'api de <a href="http://onlinefontconverter.com/" target="_blank">Online Font Converter</a>.<br/>
+			Les svg ne doivent comporte qu'une balise  &lt;path&gt; comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement et renommés de 1.svg à 26.svg. Enfin, compresser dans un .zip l'ensemble des svg (pas le dossier).
+			À partir de fichiers images (ici tiff), il est possible d'automatiser le processus via le terminal (sous macOS ou Linux) :<br/>
+			Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a> puis dans le terminal, taper :<br/>
+			<pre>
 	# 1 -> aller dans le dossier 		
 	  cd chemin/vers/le/dossier
 	# 2 -> flip les images
@@ -36,7 +36,7 @@ Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <
 	    let a=a+1
 	# 5 -> Créer un zip : 
 	  zip svg.zip *.svg 
- </pre>
+ 			</pre>
 
 
 Auparavant ,trois méthodes ont été expérimentées en utilisant la libraire <a href="http://code.andreaskoller.com/libraries/fontastic/" target="_blank">Fontastic</a> : <br/>
