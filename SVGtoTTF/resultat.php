@@ -22,18 +22,25 @@
 	    <meta charset="UTF-8">
 	    <title>SVG</title>
 	    <style>
-	        body { font-family: monospace; }
+	        body 	   { font-family: 'luxi'; margin: 15px; font-size:80%; }
+	    	@font-face { font-family:'luxi'; src: url(fontface/LuxiMono.ttf);  }
+    		@font-face { font-family: 'luxiItalic'; src: url(fontface/LuxiMono-Oblique.ttf); }
+        	a 		   { text-decoration:none; padding-bottom: 2px; border-bottom: 1px solid black; color:black; font-family:'luxiItalic'; }
+        	#retour	   { position:fixed; left:15px; bottom:15px; }
 	    </style>
 	</head>
-	<body>
-		
+	<body>		
 	    <?php      
-	
+		
 			// Debug
 			//ini_set('display_errors','1');
-	
+
+	        $titre   = htmlspecialchars($_POST['nom']); 			// ## Titre de la fonte
+	        $crenage = htmlspecialchars($_POST['crenage']);       	// ## Définir le crénage
+	        $hauteur = htmlspecialchars($_POST['hauteur']);       	// ## Définir la hauteur     
+
 			// Vérifier les fichiers envoyés
-			$valid_formats = array("svg");
+			$valid_formats = array("zip");
 			$max_file_size = 1000000 ; //100 kb
 			$path = "uploads/"; // Upload directory
 			$count = 0;
@@ -55,21 +62,21 @@
 							continue; // Skip invalid file formats
 						}
 				        else{ // No error found! Move uploaded files 
-				            if(move_uploaded_file($_FILES["files"]["tmp_name"][$f], $path.$_POST['nom'].'-'.$name))
-				            echo '--> lettre ' . $count . ' uploadée<br/>';
+				            if(move_uploaded_file($_FILES["files"]["tmp_name"][$f], $path.$_POST['nom'].'.zip'))
+				            echo '--> le fichier ' . $name . ' est uploadé.<br/>';
 				            $count++; // Number of successfully uploaded file
 				        }
 				    }
 				}
 			}
-	
+
+			// Extraire le zip
+			exec('unzip uploads/'.$titre.'.zip -d uploads/unzip/');
+			echo '--> Le fichier est décompressé !<br/>';
+
 	
 	        // Construction du Svg Font
-	        $titre   = htmlspecialchars($_POST['nom']); 			// ## Titre de la fonte
-	        $crenage = htmlspecialchars($_POST['crenage']);       	// ## Définir le crénage
-	        $hauteur = htmlspecialchars($_POST['hauteur']);       	// ## Définir la hauteur        
-	
-		
+   	
 	        $lettres = array(1 => 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
 	                              'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
 	                              
@@ -90,7 +97,7 @@
 	        
 	        // Parsing du svg
 	        for ($i = 1; $i <= 26; $i++) {
-	            $lettre = file_get_contents('uploads/' . $titre . '-' . $i . '.svg');
+          		$lettre = file_get_contents('uploads/unzip/' . $i . '.svg');
 	            $debut = strrpos($lettre,'d=');
 	            $attrD = substr($lettre, $debut);
 	            $coordonees = str_replace("</svg>","",$attrD);
@@ -101,7 +108,7 @@
 	        
 	        $file = $titre.'.svg';
 	        file_put_contents('svgFontes/'.$file, $xml);
-	        echo '### ' . $titre . '.svg créé ###<br/>';
+	        echo '--> ' . $titre . '.svg créé <br/>';
 	
 			// Conversion du svg font en ttf,
 			// Online font converter API (http://onlinefontconverter.com/)
@@ -123,13 +130,37 @@
 			$res = $response -> __get( 'body' ) ;
 			if( isset($res) ) {
 				file_put_contents( $des, $res )    ;
-				echo '### ' .$titre. '.tar.gz  créée ###<br />'     ;
+				echo '--> ' .$titre. '.tar.gz  créé <br />'     ;
 			}
+		
+			//extraire le .tar.gz et le déplacer dans le dossier de stockage
+			$p = new PharData('ttf/'.$titre.'.tar.gz');
+			$p->decompress(); 
+			$phar = new PharData('ttf/'.$titre.'.tar');
+			$phar->extractTo('ttf/');
+			echo '--> ' .$titre.'.tar.gz décompressé, la fonte est prête !';
+			copy('./ttf/onlinefontconverter.com/converted-files/' .$titre. '.ttf', './ttf/stock/' .$titre. '.ttf');
+			
+			
+			//supprimer les fichiers créés sauf le ttf
+			for ($j = 1 ; $j <= 26 ; $j++) {
+				unlink('uploads/unzip/'.$j.'.svg');
+			}
+			
+			unlink('uploads/'.$titre.'.zip');
+			unlink('svgFontes/'.$titre.'.svg');
+			unlink('ttf/'.$titre.'.tar.gz');
+			unlink('ttf/'.$titre.'.tar');
+			unlink('ttf/onlinefontconverter.com/converted-files/'.$titre.'.ttf');
+			unlink('ttf/onlinefontconverter.com/README.txt');
+			rmdir('ttf/onlinefontconverter.com/converted-files');
+			rmdir('ttf/onlinefontconverter.com');
+			
 		?>
 		<br/>
-		
+		<br/>
 		<!-- Télécharger le fichier -->
-		<a href="<?php echo $des; ?>">Télécharger le fichier !</a>
-		
+		<a href="<?php echo 'ttf/stock/' .$titre. '.ttf' ?>">Télécharger <?php echo $titre. '.ttf'?> !</a>
+		<a href="index.php" id="retour"> &lt;-- Retourner au formulaire </a>
 	</body>
 </html>
