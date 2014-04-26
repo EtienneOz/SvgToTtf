@@ -1,7 +1,8 @@
 SvgToTtf
 ========
 
-Générer un fichier .ttf à partir de 26 .svg .<br/><br/>
+Générer un fichier .ttf à partir de 26 .svg .<br/>
+Une version en ligne est disponible à l'adresse <a href="http://etienneozeray.fr/svg2ttf" target="_blank">http://etienneozeray.fr/svg2ttf</a> <br/>
 
 Utilisation du php pour créer un fichier svg font contenant chaque caractère qui est ensuite converti en ttf via l'api de <a href="http://onlinefontconverter.com/" target="_blank">Online Font Converter</a>.<br/>
 Les svg ne doivent comporte qu'une balise  &lt;path&gt; comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement et renommés de 1.svg à 26.svg. Enfin, compresser dans un .zip l'ensemble des svg (pas le dossier).
