@@ -5,6 +5,7 @@ Générer un fichier .ttf à partir de 26 .svg .<br/>
 Une version en ligne est disponible à l'adresse <a href="http://etienneozeray.fr/svg2ttf" target="_blank">http://etienneozeray.fr/svg2ttf</a> <br/>
 
 Utilisation du php pour créer un fichier svg font contenant chaque caractère qui est ensuite converti en ttf via l'api de <a href="http://onlinefontconverter.com/" target="_blank">Online Font Converter</a>.<br/>
+Le script ne fonctionne pour le moment que pour les 26 lettres bas-de-casse.<br/>
 Les svg ne doivent comporte qu'une balise  &lt;path&gt; comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement et renommés de 1.svg à 26.svg. Enfin, compresser dans un .zip l'ensemble des svg (pas le dossier).
 À partir de fichiers images (ici tiff), il est possible d'automatiser le processus via le terminal (sous macOS ou Linux) :<br/>
 Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a> puis dans le terminal, taper :<br/>
@@ -52,5 +53,8 @@ Auparavant ,trois méthodes ont été expérimentées en utilisant la libraire <
 To do :
 =======
 • Inverser et centrer les glyphes, voir screenshot 3. (une solution temporaire est utilisée en inversant les svg en amont) ;<br/>
+• Empécher de nommer la fonte avec un nom existant (pour l'archivage) ;<br/>
+• Messages d'erreur si mauvaise manip ;<br/>
+• Prendre en charge les autres formats de compression ;<br/>
 • Prendre en charge tant les alphabets incomplets qu'entiers ;<br/>
-• Prendre en charge les fontes à chasse variable ;
+• Prendre en charge les fontes à chasse variable ;<br/>
