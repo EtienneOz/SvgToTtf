@@ -1,30 +1,43 @@
 SvgToTtf
 ========
 
-Générer un fichier .ttf à partir de .svg .<br/><br/>
+			Générer un fichier .ttf à partir de 26 .svg .<br/><br/>
 
-Utilisation du php pour créer un fichier svg font contenant chaque caractère qui est ensuite converti en ttf via l'api de <a href="http://onlinefontconverter.com/" target="_blank">Online Font Converter</a>.<br/>
-une version en ligne est disponible à l'adresse <a href="http://etienneozeray.fr/svg2ttf/" target="blank">http://etienneozeray.fr/svg2ttf/</a>.<br/>
-/!\ Les svg ne doivent comporte qu'une balise \<path\> comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement.
-A partir de fichiers tiff, il est possible d'automatiser le processus via le terminal :<br/>
-Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a> puis dans le terminal, taper :<br/>
-<code>cd chemin/vers/le/dossier</code><br/>
-<code># flip les images</code><br/>
-<code>  mogrify -flip  *.tif</code><br/>
-<code># Vectoriser le dossier entier</code><br/>
-<code># Pour des images comprenant des courbes :</code><br/>
-<code>  for i in *.tif ; do autotrace -background-color=FFFFFF -color-count 2 "$i" -output-file="${i%.*}.svg" ; done</code><br/>
-<code># Pour des images sans courbes :</code><br/>
-<code>  for i in *.tif ; do autotrace -background-color=FFFFFF -corner-threshold 360 -color-count 2 "$i" -output-file="${i%.*}.svg" ; done</code><br/>
-<code># Renommer le dossier entier de 1.svg à 26.svg</code><br/>
-<code>  a=1 </code><br/>
-<code>  for i in *.svg; do</code><br/>
-<code>    new=$(printf "%2d.svg" ${a}) #04 pad to length of 4</code><br/>
-<code>    mv ${i} ${new}</code><br/>
-<code>    let a=a+1</code><br/>
-<code>  done</code><br/>
-Il est necessaire d'augmenter la capacité d'upload simultanées par défaut de php. En local, il faut modifier le fichier php.ini en modifiant la valeur de 'max_file_uploads' à 26 minimum. Sur le serveur, c'est une autre paire de manches...
-<br/><br/>
+			Utilisation du php pour créer un fichier svg font contenant chaque caractère qui est ensuite converti en ttf via l'api de <a href="http://onlinefontconverter.com/" target="_blank">Online Font Converter</a>.<br/>
+			Les svg ne doivent comporte qu'une balise  &lt;path&gt; comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement et renommés de 1.svg à 26.svg. Enfin, compresser dans un .zip l'ensemble des svg (pas le dossier).
+			À partir de fichiers images (ici tiff), il est possible d'automatiser le processus via le terminal :<br/>
+			Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a> puis dans le terminal, taper :<br/>
+			<pre>
+	# 1 -> aller dans le dossier 		
+	  cd chemin/vers/le/dossier
+	# 2 -> flip les images
+	  mogrify -flip  *.tif
+	# 3 -> Vectoriser le dossier entier
+	# 3.a -> Pour des images comprenant des courbes :
+	  for i in *.tif ; do 
+	    autotrace \
+	  	  -background-color=FFFFFF \
+	  	  -color-count 2 \
+	  	  "$i" -output-file="${i%.*}.svg" ; 
+	  done
+	# 3.b -> Pour des images sans courbes :
+	  for i in *.tif ; do 
+	  	autotrace \
+	  	  -background-color=FFFFFF \
+	  	  -corner-threshold 360 \
+	  	  -color-count 2 \
+	  	  "$i" -output-file="${i%.*}.svg" ; 
+	  done
+	# 4 -> Renommer le dossier entier de 1.svg à 26.svg
+	  a=1 
+	  for i in *.svg; do
+	    new=$(printf "%2d.svg" ${a})
+	    mv ${i} ${new}
+	    let a=a+1
+	# 5 -> Créer un zip : 
+	  zip svg.zip *.svg 
+ 			</pre>
+
 
 Auparavant ,trois méthodes ont été expérimentées en utilisant la libraire <a href="http://code.andreaskoller.com/libraries/fontastic/" target="_blank">Fontastic</a> : <br/>
 1 - La méthode getVertex() (vector2.pde), ne permet pas de récupérer les courbes ;<br/>
