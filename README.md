@@ -5,7 +5,23 @@ Générer un fichier .ttf à partir de 26 .svg .<br/>
 Une version en ligne est disponible à l'adresse <a href="http://etienneozeray.fr/svg2ttf" target="_blank">http://etienneozeray.fr/svg2ttf</a> <br/>
 
 Utilisation du php pour créer un fichier svg font contenant chaque caractère qui est ensuite converti en ttf via l'api de <a href="http://onlinefontconverter.com/" target="_blank">Online Font Converter</a>.<br/>
-Le script ne fonctionne pour le moment que pour les 26 lettres bas-de-casse.<br/>
+Le dossier de svg doit comporter, dans l'ordre, les lettres suivantes :<br/>
+	/* Capitales */
+	'A', 'À', 'Æ', 'B', 'C', 'D', 'E', 'É', 'È', 'Ê', 'Ë', 
+	'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'Ô', 
+	'Ö', 'Œ', 'P', 'Q', 'R', 'S', 'T', 'U', 'Ù', 'Û', 'Ü', 
+	'V', 'W', 'X', 'Y', 'Z',`
+	/* Bas-de-casse */
+	'a', 'à', 'æ', 'b', 'c', 'ç', 'd', 'e', 'é', 'è', 'ê', 
+	'ë', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 
+	'ô', 'ö', 'œ', 'p', 'q', 'r', 's', 't', 'u', 'ù', 'û', 
+	'ü', 'v', 'w', 'x', 'y', 'z',
+	/* Chiffres */
+	'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+	/* Ponctuation */
+	'-', ',', ';', '!', '?', '\'', '«', '»', '(', ')', '[', 
+	']', '{', '}', '@', '*', '&', '#', '%', '+', '±', '=', 
+	'$', ':', '.', '/' <br/>
 Les svg ne doivent comporte qu'une balise  &lt;path&gt; comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement et renommés de 1.svg à 26.svg. Enfin, compresser dans un .zip l'ensemble des svg (pas le dossier).
 À partir de fichiers images (ici tiff), il est possible d'automatiser le processus via le terminal (sous macOS ou Linux) :<br/>
 Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a> puis dans le terminal, taper :<br/>
