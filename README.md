@@ -36,6 +36,7 @@ Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <
 	    new=$(printf "%2d.svg" ${a})
 	    mv ${i} ${new}
 	    let a=a+1
+	   done
 	# 5 -> Créer un zip : 
 	  zip svg.zip *.svg 
  </pre>
