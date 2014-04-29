@@ -70,5 +70,5 @@ To do :
 • Empécher de nommer la fonte avec un nom existant (pour l'archivage) ;<br/>
 • Messages d'erreur si mauvaise manip ;<br/>
 • Prendre en charge les autres formats de compression ;<br/>
-• Prendre en charge tant les alphabets incomplets qu'entiers ;<br/>
+• Prendre en charge les alphabets incomplets ;<br/>
 • Prendre en charge les fontes à chasse variable ;<br/>
