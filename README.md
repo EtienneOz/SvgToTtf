@@ -74,3 +74,7 @@ To do :
 • Prendre en charge les autres formats de compression ;<br/>
 • Prendre en charge les alphabets incomplets ;<br/>
 • Prendre en charge les fontes à chasse variable ;<br/>
+
+## License
+
+SVG2TTF is under [GNU GPL V3 License](https://github.com/EtienneOz/SvgToTtf/blob/master/LICENSE).
