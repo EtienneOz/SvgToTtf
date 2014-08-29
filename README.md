@@ -1,6 +1,8 @@
 SvgToTtf
 ========
 
+Outil mis en place pour [NikeLaPolice](https://github.com/EtienneOz/NikeLaPolice).
+
 Générer un fichier .ttf à partir de 26 .svg .<br/>
 Une version en ligne est disponible à l'adresse <a href="http://etienneozeray.fr/svg2ttf" target="_blank">http://etienneozeray.fr/svg2ttf</a> <br/>
 
